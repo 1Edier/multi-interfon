@@ -35,7 +35,7 @@ export class MysqlImageRepository implements ImageRepository {
             return images;
         } catch (error) {
             console.log('Error al obtener las imágenes', error);
-            throw new Error('Error al obtener las imágenes' + error);
+            throw new Error('Error al obtener las imágenes' + error)
         }
     }
 
